@@ -5,4 +5,4 @@ a simple blog
 
 **exec** 
   
-  rackup config.ru
+    rackup config.ru
