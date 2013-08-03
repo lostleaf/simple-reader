@@ -1,7 +1,7 @@
-sinatra-simple-blog
+sinatra-simple-web-reader
 ===================
 
-a simple blog
+a simple web reader
 
 **exec** 
 
