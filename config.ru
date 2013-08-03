@@ -1,4 +1,3 @@
-$LOAD_PATH.unshift 'lib'
-require "blog"
+require "./app"
 
-run Blog
+run App

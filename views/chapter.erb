@@ -1,0 +1,5 @@
+<% @chapters.each_with_index do |chapter_name, id| %>
+    <p>
+        <h2> <a href="book/<%= id %>"><%= chapter_name %></a></h2>
+    </p>
+<% end %>

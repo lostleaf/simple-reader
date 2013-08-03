@@ -1,0 +1,15 @@
+!!!5
+%html
+  %head
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %link{:href => "css/bootstrap.min.css", :media => "screen", :rel => "stylesheet"}/
+    %link{:href => "css/custom.css", :media => "screen", :rel => "stylesheet"}/
+    %script{:src => "js/jquery-1.9.1.min.js"}
+    %script{:src => "js/bootstrap.min.js"}
+    %title My page
+  %body
+    .navbar.navbar-static-top
+      .navbar-inner
+        .container
+          %a.brand{:href => "#"} Simple Reader
+    =yield

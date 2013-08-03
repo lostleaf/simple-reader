@@ -1,0 +1,48 @@
+body {
+  background: rgb(231,244,254);
+  font-family: "WenQuanYi Micro Hei", sans-serif;
+}
+
+a{
+  color: #004E00;
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+  text-decoration: none;
+}
+
+.brand:hover{
+  color: rgba(0,0,0,0.6);
+}
+
+.content{
+  line-height: 28.8px;
+  font-size: 13pt;
+}
+
+.title {
+  margin-bottom:  30px;
+  margin-top:     40px;
+}
+
+.title h1{
+  color: #DA1A27;
+}
+
+.title .info{
+  display: inline-block;
+  border-top: 1px dashed; 
+  padding-top: 2px;
+  color: rgba(0, 0, 0, 0.5);
+  /*text-align: center;*/
+}
+
+.info a{
+  margin-right:5px;
+}
+
+.info span{
+  color: black;
+}
